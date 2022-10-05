@@ -1,0 +1,263 @@
+/* body */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1ABC9C;
+}
+
+.active{
+     background-color: #1ABC9C;
+     color: white;
+     border-radius: 20px;
+
+}
+
+/* start navbar */
+nav{
+    background-color: #2C3E50;
+    color: white;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-item a{
+    margin:0 10px;
+    padding: 25px;
+    font-weight: 900;
+    color: white;
+    transition: .1s;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.mainlogo{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+.nav-item a:hover{
+    color: #1ABC9C;
+}
+
+.logo{
+    color: #1ABC9C;
+}
+
+/* end navbar */
+
+/* start mainpart */
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center ;
+   
+
+}
+.main .main-div{
+
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+.my-img{
+    width: 200px;
+    border-radius: 50%;
+    margin:30px;
+}
+
+
+.name{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 22px;
+}
+
+
+/* end mainpart */
+
+/* start project */
+
+.project{
+    background-color: white;
+    padding: 100px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 70px;
+    color: #2C3E50;
+    padding: 20px;
+}
+
+.card{
+    margin: auto;
+    background-color: #2C3E50;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end project */
+
+/* start about */
+
+.about h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    padding: 100px;
+}
+
+.txt p{
+
+    font-size: 30px;
+    color: white;
+}
+
+
+.txt img{
+    width: 300px;
+}
+
+.social img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid #2C3E50;
+}
+
+/* end about */
+
+/* start experiance */
+
+.ex h1{
+     text-align: center;
+     font-size: 70px;
+     font-weight: 900;
+     margin-top: 20px;
+}
+
+.ex {
+    background-color: white;
+    padding: 100px;
+}
+.progress{
+    width: 500px;
+    height: 30px;
+    margin: 20px;
+}
+
+.progress span{
+    color: black;
+}
+
+.ex-item{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+/* end experiance */
+
+/* start form */
+
+.form h1{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    margin: 30px;
+}
+
+.form{
+    margin: 100px;
+}
+
+/* end form */
+
+/* start footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center  ;
+    background-color: #2C3E50;
+    color: white;
+    padding: 25px;
+}
+.end{
+    padding: 10px;
+    background-color: #1A252F;
+    color: white;
+    text-align: center;
+}
+
+/* end footer */
+
+
+
+/* media */
+@media (max-width: 900px) {
+    .social{
+        text-align: center;
+    }
+    .social img{
+        width: 30px;
+    }
+    .txt{
+        display: block;
+        text-align: center;
+    }
+    .form h1{
+        font-size: 30px ;
+    }
+
+    .ex h1{
+        font-size: 40px;
+    }
+    .footer{
+        display: block;
+        padding: 30px;
+    }
+    .footer div{
+        margin: 30px;
+    }
+    .project h1{
+        font-size: 40px;
+    }
+  }
